@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements ClusterManager.On
     MapView mapView;
     GoogleMap map;
     ClusterManager<Person> mClusterManager;
-    MarkerOptions markerOptions;
+   // MarkerOptions markerOptions;
     Person offsetItem;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
